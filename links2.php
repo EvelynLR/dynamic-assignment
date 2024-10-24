@@ -30,7 +30,7 @@ if($page==1){
 $project_number=strpos($_SERVER['SCRIPT_NAME'], '/links2.php');
 $project_path=substr($_SERVER['SCRIPT_NAME'], 0, $project_number);
 //需要接解决的问题：如何把define的加到下面的路径define("PROJECT_FOLDER", $project_path);
-echo "<a href = '$project_path ./links.php'>Return to Menu</a>";
+echo "<a href = '$project_path/links.php'>Return to Menu</a>";
 ?>
 
 
